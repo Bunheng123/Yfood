@@ -1,0 +1,17 @@
+@import "tailwindcss";
+@plugin "daisyui";
+
+@theme {
+  --color-cherry: #e6b7d3;
+  --color-green_bg: #002b26;
+  --color-not-white: #f9fff9;
+  --font-popins: "Popins":san-serf;
+}
+@keyframes animation{
+  0% {
+    transform: translateX(-10%);
+  }
+  100% {
+    transform: translateX(100%);
+  }
+}

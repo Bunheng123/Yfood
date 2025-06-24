@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html class="bg-white" lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tailwind CSS</title>
+    <link rel="stylesheet" href="/src/output.css" />
+    <!-- Lucid icon -->
+    <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.js"></script>
+  </head>
+  <body>
+    <section class="container-fruid mx-auto">
+      <div
+        class="navbar justify-between bg-white text-black p-[30px_100px] shadow-sm"
+      >
+        <div class="navbar-start hidden lg:flex">
+          <ul class="flex menu menu-horizontal gap-[50px]">
+            <li
+              class="text-2xl Shop-container cursor-pointer hover:underline font-md"
+            >
+              Shop
+            </li>
+            <div
+              class="absolute hover:opacity-100 Product-container duration-500 left-[20px] opacity-0 pb-[100px] w-[95%] right-[20px] m-auto p-[50px] rounded-3xl top-[100px] bg-gray-400"
+            >
+              <div class="flex justify-between pb-[50px] items-center">
+                <h1 class="text-5xl font-bold">Shop</h1>
+                <h1 class="flex gap-5 font-bold items-center">
+                  See All <i data-lucide="move-right"></i>
+                </h1>
+              </div>
+              <div class="card-container flex gap-5">
+                <div
+                  class="card-item group flex w-[350px] justify-start flex-col"
+                >
+                  <img
+                    class="w-[300px] group-hover:scale-95 h-[250px] object-cover mb-5 rounded-3xl"
+                    src="/assets/img1.png"
+                    alt="Drink"
+                  />
+                  <h1 class="title text-3xl font-bold">Drink</h1>
+                  <p class="des">
+                    Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet..
+                  </p>
+                </div>
+                <div class="card-item flex w-[350px] justify-start flex-col">
+                  <img
+                    class="w-[300px] h-[250px] object-cover mb-5 rounded-3xl"
+                    src="/assets/img1.png"
+                    alt="Drink"
+                  />
+                  <h1 class="title text-3xl font-bold">Drink</h1>
+                  <p class="des">
+                    Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet..
+                  </p>
+                </div>
+                <div class="card-item flex w-[350px] justify-start flex-col">
+                  <img
+                    class="w-[300px] h-[250px] object-cover mb-5 rounded-3xl"
+                    src="/assets/img1.png"
+                    alt="Drink"
+                  />
+                  <h1 class="title text-3xl font-bold">Drink</h1>
+                  <p class="des">
+                    Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet..
+                  </p>
+                </div>
+                <div class="card-item flex w-[350px] justify-start flex-col">
+                  <img
+                    class="w-[300px] h-[250px] object-cover mb-5 rounded-3xl"
+                    src="/assets/img1.png"
+                    alt="Drink"
+                  />
+                  <h1 class="title text-3xl font-bold">Drink</h1>
+                  <p class="des">
+                    Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet..
+                  </p>
+                </div>
+                <div class="card-item flex w-[350px] justify-start flex-col">
+                  <img
+                    class="w-[300px] h-[250px] object-cover mb-5 rounded-3xl"
+                    src="/assets/img1.png"
+                    alt="Drink"
+                  />
+                  <h1 class="title text-3xl font-bold">Drink</h1>
+                  <p class="des">
+                    Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet..
+                  </p>
+                </div>
+              </div>
+            </div>
+            <li class="p-0">
+              <details>
+                <summary class="text-2xl">Smart Food</summary>
+                <ul class="flex bg-white p-[10px] flex-col gap-5">
+                  <li class="hover:underline text-2xl cursor-pointer">
+                    What is yfood?
+                  </li>
+                  <li class="hover:underline text-2xl cursor-pointer">
+                    About Drinks
+                  </li>
+                  <li class="hover:underline text-2xl cursor-pointer">
+                    About powder
+                  </li>
+                  <li class="hover:underline text-2xl cursor-pointer">
+                    About bars
+                  </li>
+                </ul>
+              </details>
+            </li>
+
+            <li class="text-2xl cursor-pointer hover:underline font-md">
+              Infor
+            </li>
+          </ul>
+        </div>
+        <div class="navbar-center">
+          <a href="#" class="cursor-pointer">
+            <img
+              class="w-[200px]"
+              src="https://uk.yfood.com/cdn/shop/files/logo.svg?v=1724148762&width=150"
+              alt=""
+            />
+          </a>
+        </div>
+        <div class="navbar-end">
+          <ul class="flex gap-5 justify-end">
+            <li><i data-lucide="search"></i></li>
+            <li><i data-lucide="user"></i></li>
+            <li><i data-lucide="shopping-cart"></i></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+  </body>
+  <script>
+    lucide.createIcons();
+  </script>
+</html>

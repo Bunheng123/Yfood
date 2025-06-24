@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/src/output.css" />
+    <title>tailwind</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&family=Luckiest+Guy&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.js"></script>
+  </head>
+  <body class="bg-white">
+    <div
+      class="10 fixed rotate-[270deg] top-100 -left-20 text-white font-bold bg-black p-[5px_30px] pt-[30px] rounded-[7px]"
+    >
+      10$ FOR YOU
+    </div>
+    <div class="container-fruit mx-auto">
+      <div class="navbar bg-white text-black shadow-sm p-[15px_50px]">
+        <div class="navbar-start">
+          <ul class="menu menu-horizontal px-1 gap-5">
+            <li>
+              <details class="dropdown bg-transparent active:bg-transparent">
+                <summary class="text-xl hover:underline">Shop</summary>
+                <ul class="p-2 bg-white shadow">
+                  <li class="w-[1400px] bg-white p-[20px]">
+                    <div class="top flex justify-between items-center">
+                      <h1 class="text-4xl font-bold">Shop</h1>
+                      <div class="text-[18px] flex items-center gap-2">
+                        Shop all<i data-lucide="move-right"></i>
+                      </div>
+                    </div>
+                    <div
+                      class="product mt-[30px] cursor-pointer flex gap-[20px]"
+                    >
+                      <div class="items w-[250px] group">
+                        <div
+                          class="pic bg-gray-200 rounded-[10px] w-[250px] h-[200px] object-cover flex justify-center items-center"
+                        >
+                          <img
+                            class="group-hover:scale-110 duration-500 w-[220px] h-[170px] object-cover"
+                            src="/assets/drinks.png"
+                            alt="drinks"
+                          />
+                        </div>
+                        <h1 class="title text-2xl font-bold mt-[15px]">
+                          Drinks
+                        </h1>
+                        <div class="des text-[16px]">
+                          Our ready-to-drink meals in many delicious flavours.
+                        </div>
+                      </div>
+                      <div class="items w-[250px] group">
+                        <div
+                          class="pic bg-gray-200 rounded-[10px] w-[250px] h-[200px] object-cover flex justify-center items-center"
+                        >
+                          <img
+                            class="group-hover:scale-110 duration-500 w-[220px] h-[170px] object-cover"
+                            src="/assets/powders.png"
+                            alt="drinks"
+                          />
+                        </div>
+                        <h1 class="title text-2xl font-bold mt-[15px]">
+                          Powders
+                        </h1>
+                        <div class="des text-[16px]">
+                          One bag. 12 meals. Mix your own filling drinks.
+                        </div>
+                      </div>
+                      <div class="items w-[250px] group">
+                        <div
+                          class="pic bg-gray-200 rounded-[10px] w-[250px] h-[200px] object-cover flex justify-center items-center"
+                        >
+                          <img
+                            class="group-hover:scale-110 duration-500 w-[220px] h-[170px] object-cover"
+                            src="/assets/bars.png"
+                            alt="drinks"
+                          />
+                        </div>
+                        <h1 class="title text-2xl font-bold mt-[15px]">Bars</h1>
+                        <div class="des text-[16px]">
+                          Find Out for anytime and every taste : yfood bars.
+                        </div>
+                      </div>
+                      <div class="items w-[250px] group">
+                        <div
+                          class="pic bg-gray-200 rounded-[10px] w-[250px] h-[200px] object-cover flex justify-center items-center"
+                        >
+                          <img
+                            class="group-hover:scale-110 duration-500 w-[220px] h-[170px] object-cover"
+                            src="/assets/taster.png"
+                            alt="drinks"
+                          />
+                        </div>
+                        <h1 class="title text-2xl font-bold mt-[15px]">
+                          Taster packs
+                        </h1>
+                        <div class="des text-[16px]">
+                          Find out which flavour you like best.
+                        </div>
+                      </div>
+                      <div class="items w-[250px] group">
+                        <div
+                          class="pic bg-gray-200 rounded-[10px] w-[250px] h-[200px] object-cover flex justify-center items-center"
+                        >
+                          <img
+                            class="group-hover:scale-110 duration-500 w-[220px] h-[170px] object-cover"
+                            src="/assets/limited.png"
+                            alt="drinks"
+                          />
+                        </div>
+                        <h1 class="title text-2xl font-bold mt-[15px]">
+                          Limited editions
+                        </h1>
+                        <div class="des text-[16px]">
+                          Experience unique flavours with out Limited Editoins.
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+                </ul>
+              </details>
+            </li>
+            <li>
+              <details class="dropdown bg-transparent active:bg-transparent">
+                <summary class="text-xl hover:underline">Smart Food</summary>
+                <ul class="p-2 bg-white shadow w-[180px]">
+                  <li class="hover:underline text-xl"><a>What is yfood?</a></li>
+                  <li class="hover:underline text-xl"><a>About powders</a></li>
+                  <li class="hover:underline text-xl"><a>About bars</a></li>
+                </ul>
+              </details>
+            </li>
+            <li>
+              <details class="dropdown bg-transparent active:bg-transparent">
+                <summary class="text-xl hover:underline">Info</summary>
+                <ul class="p-2 bg-white shadow w-[200px]">
+                  <li class="hover:underline text-xl"><a>Subscription</a></li>
+                  <li class="hover:underline text-xl"><a>Store locator</a></li>
+                  <li class="hover:underline text-xl"><a>Refer a friend</a></li>
+                  <li class="hover:underline text-xl"><a>Story</a></li>
+                  <li class="hover:underline text-xl">
+                    <a>Healthy benefits</a>
+                  </li>
+                  <li class="hover:underline text-xl"><a>FAQ</a></li>
+                  <li class="hover:underline text-xl"><a>Blog</a></li>
+                </ul>
+              </details>
+            </li>
+          </ul>
+        </div>
+        <div class="nav-center">
+          <img
+            src="https://yfood.com/cdn/shop/files/logo.svg?v=1710349083&width=150"
+            alt=""
+          />
+        </div>
+        <div class="navbar-end">
+          <ul class="flex gap-5 justify-end">
+            <li><i data-lucide="search"></i></li>
+            <li><i data-lucide="user"></i></li>
+            <li><i data-lucide="shopping-cart"></i></li>
+          </ul>
+        </div>
+      </div>
+      <div
+        class="advertiment container-fruit bg-cherry 0 flex justify-between items-center"
+      >
+        <div class="text_ flex gap-5">
+          <h1 class="font-bold text-[35px] ms-[80px] text-green_bg">
+            For cherry lovers-only better.
+          </h1>
+          <div
+            class="text-[18px] text-green_bg underline pt-[17px] cursor-pointer"
+          >
+            Order now
+          </div>
+        </div>
+
+        <img src="/assets/Cherry.png" alt="" />
+      </div>
+      <div
+        class="promotion container-fruit flex justify-between bg-green_bg p-[50px_120px]"
+      >
+        <div class="text">
+          <h1 class="font-bold text-not-white text-[100px] mb-[-60px]">
+            1 drink. 1
+          </h1>
+          <h1 class="font-bold text-not-white text-[100px] font-popins">
+            meal.
+          </h1>
+          <h4>
+            Modern nutriton that fits perfectly into your fast-paced lifestyle:
+            Delicious.
+          </h4>
+          <h4>
+            Sample. Balanced. Good for you and your wallets. Smart, right?
+          </h4>
+          <button
+            class="bg-not-white text-green_bg p-[20px_40px] font-bold text-[15px] rounded-[10px] mt-[40px] cursor-pointer hover:bg-green-100"
+          >
+            Order yfood
+          </button>
+        </div>
+        <div class="img group">
+          <img
+            src="/assets/4bottles.png"
+            class="w-[630px] group-hover:scale-110 duration-500"
+            alt=""
+          />
+        </div>
+      </div>
+      <div class="sponers flex justify-around items-center h-[120px]">
+        <img src="/assets/bild.png" class="w-[50px] h-[50px]" alt="" />
+        <img src="/assets/business.png" class="h-[50px]" alt="" />
+        <img src="/assets/cosmopolitan.png" class="h-[70px]" alt="" />
+        <img src="/assets/forbes.png" class="h-[45px]" alt="" />
+        <img src="/assets/glamour.png" class="h-[60px]" alt="" />
+        <img src="/assets/CG.png" class="h-[60px]" alt="" />
+        <img src="/assets/MEN's.png" class="h-[45px]" alt="" />
+        <img src="/assets/WW.png" class="h-[50px]" alt="" />
+      </div>
+      <div class="2-card w-[80%] m-auto flex justify-between">
+        <div class="first-card w-[48%]">
+          <img src="/assets/chery2.png" alt="" />
+          <div class="text-side">
+            <div class="title">
+              For everyone who loves cherries-only better.
+            </div>
+          </div>
+        </div>
+        <div class="first-card w-[48%]">
+          <img src="/assets/rightside.png" alt="" />
+          <div class="text-side">
+            <div class="title">
+              For everyone who loves cherries-only better.
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script>
+    lucide.createIcons();
+  </script>
+</html>
