@@ -7,11 +7,14 @@
   --color-not-white: #f9fff9;
   --font-popins: "Popins":san-serf;
 }
-@keyframes animation{
+.sponers {
+  animation: infiniscroll 10s linear infinite;
+}
+@keyframes infiniscroll{
   0% {
-    transform: translateX(-10%);
+    transform: translateX(-20%);
   }
   100% {
-    transform: translateX(100%);
+    transform: translateX(10%);
   }
 }
