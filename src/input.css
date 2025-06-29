@@ -5,7 +5,9 @@
   --color-cherry: #e6b7d3;
   --color-green_bg: #002b26;
   --color-not-white: #f9fff9;
+  --color-bg-text:#c5dfc9;
   --font-popins: "Popins":san-serf;
+
 }
 .sponers {
   animation: infiniscroll 10s linear infinite;
