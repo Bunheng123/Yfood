@@ -5,18 +5,22 @@
   --color-cherry: #e6b7d3;
   --color-green_bg: #002b26;
   --color-not-white: #f9fff9;
-  --color-bg-text:#c5dfc9;
-  --font-popins: "Popins":san-serf;
-
+  --color-bg-text: #c5dfc9;
+  --font-popins: "Popins", san-serf;
+  --font-alfa: "Alfa Slab One", serif;
+  --font-montserrat: "Montserrat", sans-serif;
 }
 .sponers {
   animation: infiniscroll 10s linear infinite;
 }
-@keyframes infiniscroll{
+@keyframes infiniscroll {
   0% {
     transform: translateX(-20%);
   }
   100% {
     transform: translateX(10%);
   }
+}
+* {
+  font-family: montserrat;
 }
